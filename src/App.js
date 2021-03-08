@@ -3,12 +3,12 @@ import "./styles.css";
 
 const data = [
   { id: 1, name: "Johnny", transaction: 50, date: "01-01-2020" },
-  { id: 2, name: "Johnny", transaction: 50, date: "01-22-2020" },
-  { id: 3, name: "Johnny", transaction: 0, date: "02-01-2020" },
-  { id: 4, name: "Johnny", transaction: 120, date: "03-01-2020" },
-  { id: 5, name: "James", transaction: 50, date: "01-01-2020" },
-  { id: 6, name: "James", transaction: 50, date: "02-01-2020" },
-  { id: 7, name: "James", transaction: 200, date: "03-01-2020" }
+  { id: 1, name: "Johnny", transaction: 50, date: "01-22-2020" },
+  { id: 1, name: "Johnny", transaction: 0, date: "02-01-2020" },
+  { id: 1, name: "Johnny", transaction: 120, date: "03-01-2020" },
+  { id: 2, name: "James", transaction: 50, date: "01-01-2020" },
+  { id: 2, name: "James", transaction: 50, date: "02-01-2020" },
+  { id: 2, name: "James", transaction: 200, date: "03-01-2020" }
 ];
 function calculateRP() {
   const individualTrade = data.map((i) => {
